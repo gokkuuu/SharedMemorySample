@@ -175,14 +175,14 @@ Field meanings as displayed in the UI :
 
 ## UI reference
 SharedMemorySender :
-- Buttons : Load image, Show image
-- PictureBox : shows the loaded or read-back image
-- Status : "Image loaded", errors like "Image too large for shared memory."
-- Status strip color : RoyalBlue
+- **Buttons** : Load image, Show image
+- **PictureBox** : shows the loaded or read-back image
+- **Status** : "Image loaded", errors like "Image too large for shared memory."
+- **Status strip color** : RoyalBlue
 
 SharedMemoryReceiver :
-- Buttons : Start, Stop, Save Image, Clear
-- Checkbox : Oneshot Mode
-- PictureBox : shows the received image
-- Status : "Waiting for images...", "Waiting (one shot)", "One shot received", "Stopped", "Cleared", failures as described
-- Status strip color : green
+- **Buttons** : Start, Stop, Save Image, Clear
+- **Checkbox** : Oneshot Mode
+- **PictureBox** : shows the received image
+- **Status** : "Waiting for images...", "Waiting (one shot)", "One shot received", "Stopped", "Cleared", failures as described
+- **Status strip color** : green
