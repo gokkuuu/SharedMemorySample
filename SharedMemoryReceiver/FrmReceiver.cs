@@ -77,7 +77,7 @@ namespace SharedMemoryReceiver
                     (int)(19 * dpiY / 96)                    
                     );
 
-                SetStatus("Start failed: " + ex.Message);
+                SetStatus("Start failed : " + ex.Message);
                 _running = false;
                 _oneShot = false;
                 btnStart.Enabled = true;
@@ -140,7 +140,7 @@ namespace SharedMemoryReceiver
                             (int)(19 * dpiY / 96)
                             );
                         copy.SaveImage(sfd.FileName);
-                        SetStatus("Saved: " + sfd.FileName);
+                        SetStatus("Saved : " + sfd.FileName);
                     }
                     catch (Exception ex)
                     {
@@ -148,7 +148,7 @@ namespace SharedMemoryReceiver
                             (int)(630 * dpiX / 96),
                             (int)(19 * dpiY / 96)
                             );
-                        SetStatus("Save failed: " + ex.Message);
+                        SetStatus("Save failed : " + ex.Message);
                     }
                 }
             }
@@ -203,7 +203,7 @@ namespace SharedMemoryReceiver
                         (int)(630 * dpiX / 96),
                         (int)(19 * dpiY / 96)
                         );
-                    SetStatus("Error: " + ex.Message);
+                    SetStatus("Error : " + ex.Message);
                     Thread.Sleep(1000);
                 }
             }
