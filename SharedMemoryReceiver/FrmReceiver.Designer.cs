@@ -35,23 +35,23 @@
             this.btnClear = new System.Windows.Forms.Button();
             this.chkOneShot = new System.Windows.Forms.CheckBox();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.tlblStatus = new System.Windows.Forms.ToolStripStatusLabel();
             this.slblStatus = new System.Windows.Forms.ToolStripStatusLabel();
             this.tlblSeparator1 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.tlblWidth = new System.Windows.Forms.ToolStripStatusLabel();
+            this.slblWidth = new System.Windows.Forms.ToolStripStatusLabel();
+            this.tlblSeparator2 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.tlblHeight = new System.Windows.Forms.ToolStripStatusLabel();
+            this.slblHeight = new System.Windows.Forms.ToolStripStatusLabel();
+            this.tlblSeparator3 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.tlblType = new System.Windows.Forms.ToolStripStatusLabel();
+            this.slblType = new System.Windows.Forms.ToolStripStatusLabel();
+            this.tlblSeparator4 = new System.Windows.Forms.ToolStripStatusLabel();
             this.tlblSize = new System.Windows.Forms.ToolStripStatusLabel();
             this.slblSize = new System.Windows.Forms.ToolStripStatusLabel();
             this.tlblSeparator5 = new System.Windows.Forms.ToolStripStatusLabel();
             this.tlblKBStep = new System.Windows.Forms.ToolStripStatusLabel();
-            this.tlblStatus = new System.Windows.Forms.ToolStripStatusLabel();
             this.slblKBStep = new System.Windows.Forms.ToolStripStatusLabel();
-            this.tlblSeparator4 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.tlblType = new System.Windows.Forms.ToolStripStatusLabel();
-            this.slblType = new System.Windows.Forms.ToolStripStatusLabel();
-            this.slblWidth = new System.Windows.Forms.ToolStripStatusLabel();
-            this.tlblWidth = new System.Windows.Forms.ToolStripStatusLabel();
-            this.tlblHeight = new System.Windows.Forms.ToolStripStatusLabel();
-            this.slblHeight = new System.Windows.Forms.ToolStripStatusLabel();
-            this.tlblSeparator2 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.tlblSeparator3 = new System.Windows.Forms.ToolStripStatusLabel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -144,6 +144,13 @@
             this.statusStrip1.TabIndex = 10;
             this.statusStrip1.Text = "statusStrip1";
             // 
+            // tlblStatus
+            // 
+            this.tlblStatus.ForeColor = System.Drawing.Color.White;
+            this.tlblStatus.Name = "tlblStatus";
+            this.tlblStatus.Size = new System.Drawing.Size(45, 19);
+            this.tlblStatus.Text = "Status :";
+            // 
             // slblStatus
             // 
             this.slblStatus.AutoSize = false;
@@ -156,113 +163,106 @@
             // 
             this.tlblSeparator1.ForeColor = System.Drawing.Color.White;
             this.tlblSeparator1.Name = "tlblSeparator1";
-            this.tlblSeparator1.Size = new System.Drawing.Size(10, 17);
+            this.tlblSeparator1.Size = new System.Drawing.Size(10, 15);
             this.tlblSeparator1.Text = "|";
-            // 
-            // tlblSize
-            // 
-            this.tlblSize.ForeColor = System.Drawing.Color.White;
-            this.tlblSize.Name = "tlblSize";
-            this.tlblSize.Size = new System.Drawing.Size(33, 17);
-            this.tlblSize.Text = "Size :";
-            // 
-            // slblSize
-            // 
-            this.slblSize.ForeColor = System.Drawing.Color.White;
-            this.slblSize.Name = "slblSize";
-            this.slblSize.Size = new System.Drawing.Size(45, 17);
-            this.slblSize.Text = "slblSize";
-            // 
-            // tlblSeparator5
-            // 
-            this.tlblSeparator5.ForeColor = System.Drawing.Color.White;
-            this.tlblSeparator5.Name = "tlblSeparator5";
-            this.tlblSeparator5.Size = new System.Drawing.Size(10, 17);
-            this.tlblSeparator5.Text = "|";
-            // 
-            // tlblKBStep
-            // 
-            this.tlblKBStep.ForeColor = System.Drawing.Color.White;
-            this.tlblKBStep.Name = "tlblKBStep";
-            this.tlblKBStep.Size = new System.Drawing.Size(53, 17);
-            this.tlblKBStep.Text = "KB Step :";
-            // 
-            // tlblStatus
-            // 
-            this.tlblStatus.ForeColor = System.Drawing.Color.White;
-            this.tlblStatus.Name = "tlblStatus";
-            this.tlblStatus.Size = new System.Drawing.Size(45, 17);
-            this.tlblStatus.Text = "Status :";
-            // 
-            // slblKBStep
-            // 
-            this.slblKBStep.ForeColor = System.Drawing.Color.White;
-            this.slblKBStep.Name = "slblKBStep";
-            this.slblKBStep.Size = new System.Drawing.Size(62, 17);
-            this.slblKBStep.Text = "slblKBStep";
-            // 
-            // tlblSeparator4
-            // 
-            this.tlblSeparator4.ForeColor = System.Drawing.Color.White;
-            this.tlblSeparator4.Name = "tlblSeparator4";
-            this.tlblSeparator4.Size = new System.Drawing.Size(10, 17);
-            this.tlblSeparator4.Text = "|";
-            // 
-            // tlblType
-            // 
-            this.tlblType.ForeColor = System.Drawing.Color.White;
-            this.tlblType.Name = "tlblType";
-            this.tlblType.Size = new System.Drawing.Size(38, 19);
-            this.tlblType.Text = "Type :";
-            // 
-            // slblType
-            // 
-            this.slblType.ForeColor = System.Drawing.Color.White;
-            this.slblType.Name = "slblType";
-            this.slblType.Size = new System.Drawing.Size(32, 17);
-            this.slblType.Text = "bmp";
-            // 
-            // slblWidth
-            // 
-            this.slblWidth.ForeColor = System.Drawing.Color.White;
-            this.slblWidth.Name = "slblWidth";
-            this.slblWidth.Size = new System.Drawing.Size(17, 17);
-            this.slblWidth.Text = "--";
             // 
             // tlblWidth
             // 
             this.tlblWidth.ForeColor = System.Drawing.Color.White;
             this.tlblWidth.Name = "tlblWidth";
-            this.tlblWidth.Size = new System.Drawing.Size(45, 19);
+            this.tlblWidth.Size = new System.Drawing.Size(45, 15);
             this.tlblWidth.Text = "Width :";
+            // 
+            // slblWidth
+            // 
+            this.slblWidth.ForeColor = System.Drawing.Color.White;
+            this.slblWidth.Name = "slblWidth";
+            this.slblWidth.Size = new System.Drawing.Size(17, 15);
+            this.slblWidth.Text = "--";
+            // 
+            // tlblSeparator2
+            // 
+            this.tlblSeparator2.ForeColor = System.Drawing.Color.White;
+            this.tlblSeparator2.Name = "tlblSeparator2";
+            this.tlblSeparator2.Size = new System.Drawing.Size(10, 15);
+            this.tlblSeparator2.Text = "|";
             // 
             // tlblHeight
             // 
             this.tlblHeight.ForeColor = System.Drawing.Color.White;
             this.tlblHeight.Name = "tlblHeight";
-            this.tlblHeight.Size = new System.Drawing.Size(49, 17);
+            this.tlblHeight.Size = new System.Drawing.Size(49, 15);
             this.tlblHeight.Text = "Height :";
             // 
             // slblHeight
             // 
             this.slblHeight.ForeColor = System.Drawing.Color.White;
             this.slblHeight.Name = "slblHeight";
-            this.slblHeight.Size = new System.Drawing.Size(17, 17);
+            this.slblHeight.Size = new System.Drawing.Size(17, 15);
             this.slblHeight.Text = "--";
-            // 
-            // tlblSeparator2
-            // 
-            this.tlblSeparator2.ForeColor = System.Drawing.Color.White;
-            this.tlblSeparator2.Name = "tlblSeparator2";
-            this.tlblSeparator2.Size = new System.Drawing.Size(10, 17);
-            this.tlblSeparator2.Text = "|";
             // 
             // tlblSeparator3
             // 
             this.tlblSeparator3.ForeColor = System.Drawing.Color.White;
             this.tlblSeparator3.Name = "tlblSeparator3";
-            this.tlblSeparator3.Size = new System.Drawing.Size(10, 17);
+            this.tlblSeparator3.Size = new System.Drawing.Size(10, 15);
             this.tlblSeparator3.Text = "|";
+            // 
+            // tlblType
+            // 
+            this.tlblType.ForeColor = System.Drawing.Color.White;
+            this.tlblType.Name = "tlblType";
+            this.tlblType.Size = new System.Drawing.Size(38, 15);
+            this.tlblType.Text = "Type :";
+            // 
+            // slblType
+            // 
+            this.slblType.ForeColor = System.Drawing.Color.White;
+            this.slblType.Name = "slblType";
+            this.slblType.Size = new System.Drawing.Size(32, 15);
+            this.slblType.Text = "bmp";
+            // 
+            // tlblSeparator4
+            // 
+            this.tlblSeparator4.ForeColor = System.Drawing.Color.White;
+            this.tlblSeparator4.Name = "tlblSeparator4";
+            this.tlblSeparator4.Size = new System.Drawing.Size(10, 15);
+            this.tlblSeparator4.Text = "|";
+            // 
+            // tlblSize
+            // 
+            this.tlblSize.ForeColor = System.Drawing.Color.White;
+            this.tlblSize.Name = "tlblSize";
+            this.tlblSize.Size = new System.Drawing.Size(33, 15);
+            this.tlblSize.Text = "Size :";
+            // 
+            // slblSize
+            // 
+            this.slblSize.ForeColor = System.Drawing.Color.White;
+            this.slblSize.Name = "slblSize";
+            this.slblSize.Size = new System.Drawing.Size(45, 15);
+            this.slblSize.Text = "slblSize";
+            // 
+            // tlblSeparator5
+            // 
+            this.tlblSeparator5.ForeColor = System.Drawing.Color.White;
+            this.tlblSeparator5.Name = "tlblSeparator5";
+            this.tlblSeparator5.Size = new System.Drawing.Size(10, 15);
+            this.tlblSeparator5.Text = "|";
+            // 
+            // tlblKBStep
+            // 
+            this.tlblKBStep.ForeColor = System.Drawing.Color.White;
+            this.tlblKBStep.Name = "tlblKBStep";
+            this.tlblKBStep.Size = new System.Drawing.Size(53, 15);
+            this.tlblKBStep.Text = "KB Step :";
+            // 
+            // slblKBStep
+            // 
+            this.slblKBStep.ForeColor = System.Drawing.Color.White;
+            this.slblKBStep.Name = "slblKBStep";
+            this.slblKBStep.Size = new System.Drawing.Size(62, 15);
+            this.slblKBStep.Text = "slblKBStep";
             // 
             // FrmReceiver
             // 
@@ -277,6 +277,7 @@
             this.Controls.Add(this.btnStart);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnSave);
+            this.MaximizeBox = false;
             this.Name = "FrmReceiver";
             this.Text = "FrmReceiver";
             this.Load += new System.EventHandler(this.FrmReceiver_Load);

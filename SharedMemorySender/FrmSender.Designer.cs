@@ -241,6 +241,7 @@
             this.Controls.Add(this.btnLoad);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnShow);
+            this.MaximizeBox = false;
             this.Name = "FrmSender";
             this.Text = "FrmSender";
             this.Load += new System.EventHandler(this.FrmSender_Load);
