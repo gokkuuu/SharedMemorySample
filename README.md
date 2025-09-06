@@ -79,8 +79,8 @@ Behavior :
   - Updates UI :
     - Displays the loaded image in the sender’s PictureBox.
     - Status text set to "Image loaded".
-    - Width/Height/Type/KB Step shown from header.
-    - Size label shows `dataSize / 1024` (numeric value, no "KB" suffix).
+    - Width / Height / Type / KB Step shown from header.
+    - Size label shows `dataSize  /  1024` (numeric value, no "KB" suffix).
   - If the image does not fit : sets Status to "Image too large for shared memory." and aborts.
 
 - Show image :
@@ -117,7 +117,7 @@ Behavior :
   - On UI thread :
     - Converts to `Bitmap` and displays in PictureBox.
     - Enables Save.
-    - Updates Width/Height/Type/KB Step/Size (Size shows `<KB> KB` with unit).
+    - Updates Width / Height / Type / KB Step / Size (Size shows `<KB> KB` with unit).
   - In one-shot mode, stops after the first image and sets Status to "One shot received".
 
 - Stop :
@@ -125,7 +125,7 @@ Behavior :
 
 - Save Image :
   - Clones the current Mat under a lock and opens a SaveFileDialog :
-    - Filter : PNG/JPEG/BMP/TIFF
+    - Filter : PNG / JPEG / BMP / TIFF
     - Default filename : `received.png`
   - Saves with `Mat.SaveImage()`. On success, Status set to "Saved : <path>". On failure, Status set to "Save failed : <message>".
 
@@ -135,7 +135,7 @@ Behavior :
   - Status set to "Cleared".
 
 - Error handling :
-  - Any read/display errors set Status accordingly (e.g., "Invalid header", "Error : ...", "Display failed  : ...").
+  - Any read / display errors set Status accordingly (e.g., "Invalid header", "Error : ...", "Display failed  : ...").
 
 DPI handling :
 - On Load and on DPI change (DpiChanged, DpiChangedBeforeParent, DpiChangedAfterParent), measures current DPI and updates internal DPI values.
@@ -164,7 +164,7 @@ Field meanings as displayed in the UI :
 - Type : raw OpenCV Mat type integer (`Mat.Type()`)
 - KB Step : row stride in bytes (`(int)mat.Step()`)
 - Size : in KB; receiver shows with " KB" suffix; sender shows number only
-- Width/Height : in pixels
+- Width / Height : in pixels
 
 ## Notes and limitations
 - Single payload buffer; each new image overwrites the previous content.
