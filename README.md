@@ -52,7 +52,7 @@ You need both apps running to see inter-process image transfer.
 
 Order considerations:
 - Sender creates or opens the shared memory and event on startup.
-- Receiver opens existing objects only when you click Start. If the sender has not created them yet, Start will fail with “Start failed: ...”.
+- Receiver opens existing objects only when you click Start. If the sender has not created them yet, Start will fail with “Start failed : ...”.
 - Practical guidance: Start the sender first, or start the receiver but click Start only after the sender has launched.
 
 ### SharedMemorySender (FrmSender)
