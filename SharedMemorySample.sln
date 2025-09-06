@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedMemorySender", "SharedMemorySender\SharedMemorySender.csproj", "{76674F0C-0138-4BB3-A3B1-4687192B7755}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedMemoryReceiver", "SharedMemoryReceiver\SharedMemoryReceiver.csproj", "{212BFE22-C16F-4E4C-8A1B-9A74CF5D4F5F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76674F0C-0138-4BB3-A3B1-4687192B7755}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76674F0C-0138-4BB3-A3B1-4687192B7755}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76674F0C-0138-4BB3-A3B1-4687192B7755}.Debug|x64.ActiveCfg = Debug|x64
+		{76674F0C-0138-4BB3-A3B1-4687192B7755}.Debug|x64.Build.0 = Debug|x64
+		{76674F0C-0138-4BB3-A3B1-4687192B7755}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76674F0C-0138-4BB3-A3B1-4687192B7755}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76674F0C-0138-4BB3-A3B1-4687192B7755}.Release|x64.ActiveCfg = Release|x64
+		{76674F0C-0138-4BB3-A3B1-4687192B7755}.Release|x64.Build.0 = Release|x64
+		{212BFE22-C16F-4E4C-8A1B-9A74CF5D4F5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{212BFE22-C16F-4E4C-8A1B-9A74CF5D4F5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{212BFE22-C16F-4E4C-8A1B-9A74CF5D4F5F}.Debug|x64.ActiveCfg = Debug|x64
+		{212BFE22-C16F-4E4C-8A1B-9A74CF5D4F5F}.Debug|x64.Build.0 = Debug|x64
+		{212BFE22-C16F-4E4C-8A1B-9A74CF5D4F5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{212BFE22-C16F-4E4C-8A1B-9A74CF5D4F5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{212BFE22-C16F-4E4C-8A1B-9A74CF5D4F5F}.Release|x64.ActiveCfg = Release|x64
+		{212BFE22-C16F-4E4C-8A1B-9A74CF5D4F5F}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {867D3A5B-32FF-46C7-BD25-1E8BCEEA25FC}
+	EndGlobalSection
+EndGlobal
