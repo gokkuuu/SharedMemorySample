@@ -241,6 +241,7 @@
             this.Controls.Add(this.btnLoad);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnShow);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "FrmSender";
             this.Text = "FrmSender";
